@@ -1,0 +1,222 @@
+-- EDITED BY TEXOYK
+ 
+local WaypointGuibyIvttejayden = Instance.new("ScreenGui")
+local Background = Instance.new("ImageLabel")
+local SetWayBack = Instance.new("TextButton")
+local SetWay_Roundify_12px = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local SetWay = Instance.new("TextButton")
+local GoToWayBack = Instance.new("TextButton")
+local SetWay_Roundify_12px_2 = Instance.new("ImageLabel")
+local GotoWay = Instance.new("TextButton")
+local IntroSetup = Instance.new("Folder")
+local IntroStartRef = Instance.new("Frame")
+local IntroEndRef = Instance.new("Frame")
+local Intro = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+ 
+WaypointGuibyIvttejayden.Name = "WaypointGui(TexoYkOnTop)"
+WaypointGuibyIvttejayden.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ 
+Background.Name = "Background"
+Background.Parent = WaypointGuibyIvttejayden
+Background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background.BackgroundTransparency = 1.000
+Background.Position = UDim2.new(0.356568366, 0, 0.41394338, 0)
+Background.Size = UDim2.new(0, 236, 0, 136)
+Background.Visible = false
+Background.Image = "rbxassetid://3570695787"
+Background.ImageColor3 = Color3.fromRGB(80, 80, 80)
+Background.ScaleType = Enum.ScaleType.Slice
+Background.SliceCenter = Rect.new(100, 100, 100, 100)
+Background.SliceScale = 0.120
+ 
+SetWayBack.Name = "SetWayBack"
+SetWayBack.Parent = Background
+SetWayBack.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SetWayBack.BackgroundTransparency = 1.000
+SetWayBack.BorderSizePixel = 0
+SetWayBack.Position = UDim2.new(0.220338985, 0, 0.308823526, 0)
+SetWayBack.Size = UDim2.new(0, 131, 0, 27)
+SetWayBack.Font = Enum.Font.GothamBold
+SetWayBack.Text = ""
+SetWayBack.TextColor3 = Color3.fromRGB(0, 0, 0)
+SetWayBack.TextScaled = true
+SetWayBack.TextSize = 14.000
+SetWayBack.TextWrapped = true
+ 
+SetWay_Roundify_12px.Name = "SetWay_Roundify_12px"
+SetWay_Roundify_12px.Parent = SetWayBack
+SetWay_Roundify_12px.Active = true
+SetWay_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+SetWay_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SetWay_Roundify_12px.BackgroundTransparency = 1.000
+SetWay_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+SetWay_Roundify_12px.Selectable = true
+SetWay_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+SetWay_Roundify_12px.Image = "rbxassetid://3570695787"
+SetWay_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+SetWay_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+SetWay_Roundify_12px.SliceScale = 0.120
+ 
+Title.Name = "Title"
+Title.Parent = Background
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.118644066, 0, 0, 0)
+Title.Size = UDim2.new(0, 179, 0, 29)
+Title.Font = Enum.Font.GothamBold
+Title.Text = "Waypoints"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+ 
+SetWay.Name = "SetWay"
+SetWay.Parent = Background
+SetWay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SetWay.BackgroundTransparency = 1.000
+SetWay.BorderSizePixel = 0
+SetWay.Position = UDim2.new(0.220338985, 0, 0.308823526, 0)
+SetWay.Size = UDim2.new(0, 131, 0, 27)
+SetWay.ZIndex = 2
+SetWay.Font = Enum.Font.GothamBold
+SetWay.Text = "Set waypoint"
+SetWay.TextColor3 = Color3.fromRGB(0, 0, 0)
+SetWay.TextScaled = true
+SetWay.TextSize = 14.000
+SetWay.TextWrapped = true
+ 
+GoToWayBack.Name = "GoToWayBack"
+GoToWayBack.Parent = Background
+GoToWayBack.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GoToWayBack.BackgroundTransparency = 1.000
+GoToWayBack.BorderSizePixel = 0
+GoToWayBack.Position = UDim2.new(0.220338985, 0, 0.308823526, 0)
+GoToWayBack.Size = UDim2.new(0, 131, 0, 27)
+GoToWayBack.Font = Enum.Font.GothamBold
+GoToWayBack.Text = ""
+GoToWayBack.TextColor3 = Color3.fromRGB(0, 0, 0)
+GoToWayBack.TextScaled = true
+GoToWayBack.TextSize = 14.000
+GoToWayBack.TextWrapped = true
+ 
+SetWay_Roundify_12px_2.Name = "SetWay_Roundify_12px"
+SetWay_Roundify_12px_2.Parent = GoToWayBack
+SetWay_Roundify_12px_2.Active = true
+SetWay_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+SetWay_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SetWay_Roundify_12px_2.BackgroundTransparency = 1.000
+SetWay_Roundify_12px_2.Position = UDim2.new(0.5, 0, 1.83333337, 0)
+SetWay_Roundify_12px_2.Selectable = true
+SetWay_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+SetWay_Roundify_12px_2.Image = "rbxassetid://3570695787"
+SetWay_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+SetWay_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+SetWay_Roundify_12px_2.SliceScale = 0.120
+ 
+GotoWay.Name = "GotoWay"
+GotoWay.Parent = Background
+GotoWay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GotoWay.BackgroundTransparency = 1.000
+GotoWay.BorderSizePixel = 0
+GotoWay.Position = UDim2.new(0.220338985, 0, 0.573529422, 0)
+GotoWay.Size = UDim2.new(0, 131, 0, 27)
+GotoWay.ZIndex = 2
+GotoWay.Font = Enum.Font.GothamBold
+GotoWay.Text = "Go to waypoint"
+GotoWay.TextColor3 = Color3.fromRGB(0, 0, 0)
+GotoWay.TextScaled = true
+GotoWay.TextSize = 14.000
+GotoWay.TextWrapped = true
+ 
+IntroSetup.Name = "IntroSetup"
+IntroSetup.Parent = WaypointGuibyIvttejayden
+ 
+IntroStartRef.Name = "IntroStartRef"
+IntroStartRef.Parent = IntroSetup
+IntroStartRef.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
+IntroStartRef.BackgroundTransparency = 1.000
+IntroStartRef.BorderSizePixel = 0
+IntroStartRef.Position = UDim2.new(0.368632704, 0, 0.394335508, 0)
+IntroStartRef.Size = UDim2.new(0, 2, 0, 75)
+ 
+IntroEndRef.Name = "IntroEndRef"
+IntroEndRef.Parent = IntroSetup
+IntroEndRef.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
+IntroEndRef.BackgroundTransparency = 1.000
+IntroEndRef.BorderColor3 = Color3.fromRGB(255, 255, 255)
+IntroEndRef.Position = UDim2.new(0.368632704, 0, 0.394335508, 0)
+IntroEndRef.Size = UDim2.new(0, 231, 0, 75)
+ 
+Intro.Name = "Intro"
+Intro.Parent = IntroSetup
+Intro.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
+Intro.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Intro.Position = UDim2.new(0.368632704, 0, 0.394335508, 0)
+Intro.Size = UDim2.new(0, 2, 0, 75)
+Intro.Visible = false
+ 
+TextLabel.Parent = Intro
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderSizePixel = 5
+TextLabel.Size = UDim2.new(1, 0, 1, 0)
+TextLabel.Font = Enum.Font.Code
+TextLabel.Text = "Waypoints by texoyk"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+local function ZDNC_fake_script()
+        local script = Instance.new('LocalScript', Background)
+ 
+        frame = script.Parent
+        frame.Draggable = true
+        frame.Active = true
+        frame.Selectable = true
+end
+coroutine.wrap(ZDNC_fake_script)()
+local function SPUXRA_fake_script()
+        local script = Instance.new('LocalScript', Background)
+ 
+        local WaySet = SetWay
+        local WayGoto = GotoWay
+        local pos = nil
+        local isSet = false
+        local player = game.Players.LocalPlayer
+        local db = false
+        local gotoTxt = "Go to waypoint"
+        local root = player.Character:WaitForChild("HumanoidRootPart")
+       
+        WaySet.MouseButton1Down:Connect(function()
+                if player.Character:FindFirstChild("Humanoid") then
+                        pos = root.Position
+                        isSet = true
+                end
+        end)
+       
+        WayGoto.MouseButton1Down:Connect(function()
+                if db == false then
+                        db = true
+                        if isSet == false then
+                                WayGoto.Text = "No waypoint assigned"
+                                wait(1)
+                                WayGoto.Text = "Go to waypoint"
+                                db = false
+                        end
+                end
+                if isSet == true then
+                        root.CFrame = CFrame.new(pos)
+                end
+        end)
+end
+coroutine.wrap(SPUXRA_fake_script)()
+ 
+Intro.Visible = not Intro.Visible
+Intro:TweenSize(UDim2.new(0, 231,0, 75))
+wait(3)
+Intro.Visible = not Intro.Visible
+Background.Visible = not Background.Visible
+ 
